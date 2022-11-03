@@ -1,0 +1,64 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="./imagen/logo.png" id="logo" alt="img1">
+            </div>
+            <nav>
+                <a href="index.html">INICIO</a>
+                <a href="estudios.html">ESTUDIOS</a>
+                <a href="amigos.html">AMIGOS</a>
+                <a href="familia.html">FAMILIA</a>
+                <a href="contacto.html">CONTACTO</a>
+            </nav>
+        </header>
+
+        <form class="formulario">
+            <fieldset>
+                <legend>Datos de contacto</legend>
+                Nombre y Apellido: <input type="text" id="xnombre"  name="xnombre"
+                maxlength="20" pattern="[a-z,A-Z]+" placeholder="ingrese su nombre" required>
+                <br>
+                Teléfono: <input type="tel" id="xtelef" name="xtelef" maxlength="10" 
+                pattern="[0-9]{4}[-]{1}[0-9]{5}" placeholder="ingrese su teléfono" required >
+                <br>
+                Correo:<input type="email" id="xcorreo" name="xcorreo"
+                placeholder="ingrese su email" required>
+                <br>
+                Asunto: <input type="text" id="xasunto" name="xasunto"
+                maxlength="20" pattern="[a-z,A-Z]+" placeholder="ingrese asunto" required>
+            </fieldset>
+            <br>
+            <fieldset>
+                <legend>Mensaje</legend>
+                <textarea id="xmensaje" name="xmensaje"  cols="30" rows="10" placeholder="escribir mensaje" 
+                required></textarea>
+            </fieldset>
+            <br>
+            <button type="submit" id="enviar"  value="Enviar">Enviar</button>
+        </form>
+
+        
+        <footer>
+            <a href="#face"><img class="redes" src="./imagen/face.png" alt="imgface"></a>
+            <a href="#instagram"><img class="redes" src="./imagen/instagram.png" alt="imginsta"></a>
+            <a href="#linkedin"><img class="redes" src="./imagen/linkedin.png" alt="imglinke"></a>
+            <a href="#twitter"><img class="redes" src="./imagen/twitter.png" alt="imgtwi"></a>
+            <a href="#github"><img class="redes" src="./imagen/github.png" alt="imggit"></a>
+            <a href="#discord"><img class="redes" src="./imagen/discord.png" alt="imgdiscor"></a>
+        </footer>
+    </div>
+</body>
+</html>

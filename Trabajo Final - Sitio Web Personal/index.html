@@ -1,0 +1,60 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="javascript.js"></script>
+</head>
+<body>
+    <div class="contenedor">
+        <header>
+            <div class="logo">
+                <img src="./imagen/logo.png" id="logo" alt="img1">
+
+                <div class="iniciarsesion">
+                    <p><input type="text" name="txtusuario" id="txtusuario" placeholder="ingrese usuario"></p>
+                    <p><input type="password" name="txtclave" id="txtclave" placeholder="ingrese contraseña"></p>
+                    <input type="button" id="enviar" onclick="datos(txtusuario.value,txtclave.value)" value="Iniciar Sesión">
+                </div>
+                
+            </div>
+
+            <nav>
+                <a href="index.html">INICIO</a>
+                <a href="estudios.html">ESTUDIOS</a>
+                <a href="amigos.html">AMIGOS</a>
+                <a href="familia.html">FAMILIA</a>
+                <a href="contacto.html">CONTACTO</a>
+            </nav>
+        </header>
+        <section class="main">
+            <article>
+                <img src="./imagen/Foto.jpg" alt="img2">
+            </article>
+            <aside>
+                <div>
+                    <h1>RAMIREZ SALAZAR<br>
+                        JUNIOR ALDAIR</h1>
+                </div>
+                <div>
+                    <hr>
+                    <h2>Ingeniero de Sistemas</h2>
+                </div>
+            </aside>
+        </section>
+        <footer>
+            <a href="#face"><img class="redes" src="./imagen/face.png" alt="imgface"></a>
+            <a href="#instagram"><img class="redes" src="./imagen/instagram.png" alt="imginsta"></a>
+            <a href="#linkedin"><img class="redes" src="./imagen/linkedin.png" alt="imglinke"></a>
+            <a href="#twitter"><img class="redes" src="./imagen/twitter.png" alt="imgtwi"></a>
+            <a href="#github"><img class="redes" src="./imagen/github.png" alt="imggit"></a>
+            <a href="#discord"><img class="redes" src="./imagen/discord.png" alt="imgdiscor"></a>
+        </footer>
+    </div>
+</body>
+</html>
